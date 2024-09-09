@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Controle de Biblioteca</h1>
+
+        <!-- Seção de Adicionar Livros -->
+        <div class="section">
+            <h2>Adicionar Livro</h2>
+            <input type="text" id="titulo" placeholder="Título do livro" />
+            <input type="text" id="autor" placeholder="Autor" />
+            <input type="number" id="ano" placeholder="Ano de publicação" />
+            <button id="adicionar-livro">Adicionar Livro</button>
+            <div id="mensagem-livro"></div>
+        </div>
+
+        <!-- Seção de Listagem de Livros -->
+        <div class="section">
+            <h2>Lista de Livros</h2>
+            <div id="lista-livros"></div>
+        </div>
+
+        <!-- Seção de Controle de Empréstimos -->
+        <div class="section">
+            <h2>Controle de Empréstimos</h2>
+            <input type="number" id="indice-livro" placeholder="Número do livro" />
+            <button id="emprestar-livro">Emprestar</button>
+            <button id="retornar-livro">Retornar</button>
+            <div id="mensagem-emprestimo"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

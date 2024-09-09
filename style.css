@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('/assets/bibilioteca.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333333;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ecf0f1;
+    color: #333333;
+    outline: none;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+#emprestar-livro {
+    background-color: #3498db;
+}
+
+#emprestar-livro:hover {
+    background-color: #2980b9;
+}
+
+#retornar-livro {
+    background-color: #e74c3c;
+}
+
+#retornar-livro:hover {
+    background-color: #c0392b;
+}
+
+#mensagem-livro, #lista-livros, #mensagem-emprestimo {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #34495e; 
+    text-align: left;
+}
